@@ -11,9 +11,9 @@ The React Dropdown Menu Component is a versatile React component that provides a
 - Responsive design.
 
 ## Technologies Used
--React
--HTML, CSS
--React Router
+- React
+- HTML, CSS
+- React Router
 
 ## Getting Started
 ### Installation
