@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital@0;1&family=Raleway:wght@300;400;700&family=Tektur&family=Ysabeau+SC:wght@900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #EFF1ED;
+}
+
+.Container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #3E6990;
+  min-height: 10vh;
+}
+
+.Container ul {
+  display: flex;
+  list-style: none;
+}
+
+.Container ul li {
+  position: relative;
+  font-size: 2em;
+  margin-right: 60px;
+  transition: all 0.4s ease-out;
+}
+
+.Container ul li .Items {
+  color: #EFF1ED;
+  transition: all 0.3s ease-out;
+  border-radius: 8px;
+  padding: 8px 8px 0 8px;
+}
+
+.Container ul .Items:hover {
+  background-color: #EFF1ED;
+  color: #424C55;
+}
+
+.Container ul li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Container ul li .Down-arrow {
+  cursor: pointer;
+  color: #EFF1ED;
+}
+
+.Container ul li .Sub-items {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -165px;
+  top: 60px;
+  width: 200px;
+  opacity: 0;
+}
+
+.Container ul li .Sub-items.Open {
+  opacity: 1;
+}
+
+.Container .Sub-items li {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1em;
+  width: 200px;
+  padding: 12px;
+  background: linear-gradient(to left, #3E6990 50%, #264058 50%) right;
+  background-size: 200%;
+  transition: 0.4s ease-out;
+}
+
+.Container .Sub-items li:hover {
+  background-position: left;
+  color: #2D3142;
+}
+
+.Container .Sub-items li span {
+  position: relative;
+  top: -9px;
+  left: 12px;
+  color: #EFF1ED;
+  font-size: 0.65em;
+}
+
+.Container .Sub-items li a {
+  text-decoration: none;
+}
+
+.Container .Sub-items li i {
+  color: #EFF1ED;
+}
+
+.Container .Sub-items li:nth-child(1) {
+  border-radius: 12px 12px 0 0;
+}
+
+.Container .Sub-items li:nth-child(5) {
+  border-radius: 0 0 12px 12px;
+}
