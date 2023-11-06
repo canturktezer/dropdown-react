@@ -1,5 +1,4 @@
-# dropdown-react
-Dropdown Menu
+# Dropdown Menu
 
 ## Description
 The React Dropdown Menu Component is a versatile React component that provides a customizable dropdown menu for use in web applications. It includes various icons and can be easily integrated into your projects.
@@ -17,6 +16,7 @@ The React Dropdown Menu Component is a versatile React component that provides a
 -React Router
 
 ## Getting Started
+### Installation
 To run this application locally, follow these steps:
 
 1. Clone this repository to your local machine: https://github.com/canturktezer/todo-react.git
